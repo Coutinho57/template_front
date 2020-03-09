@@ -1,5 +1,5 @@
 import React from 'react';
-import { ApplyProvider } from "./common/higherOrder";
+import { ApplyProvider } from './common/higherOrder';
 
 import './config/ReactotronConfig';
 
@@ -10,4 +10,3 @@ const App = () => {
 };
 
 export default ApplyProvider(App);
-

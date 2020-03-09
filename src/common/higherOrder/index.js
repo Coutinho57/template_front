@@ -1,3 +1,3 @@
-import ApplyProvider from "./applyProvider";
+import ApplyProvider from './applyProvider';
 
 export { ApplyProvider };
