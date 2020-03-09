@@ -1,7 +1,7 @@
 import { persistStore } from 'redux-persist';
 import createSagaMiddleware from 'redux-saga';
 import createStore from './createStore';
-import history from "./history";
+import history from './history';
 import persistReducer from './persistReducer';
 import '../../config/ReactotronConfig';
 import reducers from './reducers';

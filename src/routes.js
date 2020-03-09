@@ -1,17 +1,15 @@
-
 import React from 'react';
-import {Switch, Route} from 'react-router-dom';
-import { ConnectedRouter } from "connected-react-router";
-import history from "./common/store/history";
-import Dashboard from  './app/nomeApp/dashboard';
+import { Switch, Route } from 'react-router-dom';
+import { ConnectedRouter } from 'connected-react-router';
+import history from './common/store/history';
+import Dashboard from './app/Dashboard';
 
-
-export default function Routes(){
-  return(
+export default function Routes() {
+  return (
     <ConnectedRouter history={history}>
       <Switch>
-        <Route path="/" exact component={Dashboard}/>
+        <Route path="/" exact component={Dashboard} />
       </Switch>
     </ConnectedRouter>
-  )
+  );
 }
